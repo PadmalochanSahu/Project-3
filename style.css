@@ -60,6 +60,7 @@ form{
     height: 27px;
 
 }
+
 .bt-2{
     text-align: center;
     width: 100%;
@@ -95,6 +96,15 @@ span{
 }
 .head{
     margin-top: 15px;
+}
+.head .fa-thin{
+    padding-left: 65%;
+}
+.pass .fa-eye{
+    color: #cbd1dc;
+    position: absolute;
+    top: 69%;
+    right: 35%;
 }
 @media only screen and (max-width: 1300px){
     .main{
