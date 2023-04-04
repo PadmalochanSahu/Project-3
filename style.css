@@ -141,6 +141,17 @@ span {
     .main {
         width: 50%;
     }
+    .fa-eye {
+        position: absolute;
+        top: 62%;
+        right: 27%;
+        color: lightgray;
+    }
+    .head .fa-circle-xmark {
+        position: absolute;
+        top: 22%;
+        right: 27%;
+    }
 }
 
 @media only screen and (max-width: 540px) {
@@ -151,13 +162,13 @@ span {
 
     .head .fa-circle-xmark {
         position: absolute;
-        top: 24%;
+        top: 16%;
         right: 15%;
     }
 
     .fa-eye {
         position: absolute;
-        top: 64%;
+        top: 44%;
         right: 15%;
         color: lightgray;
     }
