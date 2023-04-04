@@ -1,37 +1,40 @@
-
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     background-color: #F3E8FF;
-    
-    
-    
+
+
+
 }
-.main{
+
+.main {
     background-color: white;
     border: 1px solid #d8d5d5;
     margin: 100px auto;
     width: 25%;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
+
 }
-header h1{
+
+header h1 {
     font-size: 20px;
     padding: 10px 0px 20px 20px;
     font-weight: 600;
 }
-.bt{
+
+.bt {
     text-align: center;
     width: 100%;
     padding: 0px 0px 20px 0px;
-    
+
 }
-#btn{
+
+#btn {
     border: 1px solid #d8d5d5;
     font-size: 14px;
     width: 90%;
@@ -42,20 +45,25 @@ header h1{
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
-#btn i{
+
+#btn i {
     color: #a6adba;
     margin-right: 10px;
 }
-hr{
+
+hr {
     background-color: lightgray;
     margin-left: 5%;
     width: 90%;
     opacity: 0.4;
 }
-form{
+
+form {
     margin: 20px;
 }
-.mail, .pass{
+
+.mail,
+.pass {
     border: 1px solid #e1dddd;
     border-radius: 5px;
     width: 100%;
@@ -64,11 +72,12 @@ form{
 
 }
 
-.bt-2{
+.bt-2 {
     text-align: center;
     width: 100%;
 }
-#btn-log{
+
+#btn-log {
     width: 100%;
     height: 36px;
     font-size: 14px;
@@ -78,67 +87,79 @@ form{
     border: 0px solid;
     cursor: pointer;
 }
-.link{
+
+.link {
     text-align: center;
     padding-top: 14px;
 }
-.link a{
+
+.link a {
     text-decoration: none;
     color: #2F58CD;
 }
-footer{
+
+footer {
     margin: 40px 0px 30px 0px;
     text-align: center;
     font-size: 15px;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: #2F58CD;
 }
-span{
+
+span {
     color: #2F58CD;
 }
-.head{
+
+.head {
     margin-top: 15px;
 }
-.head .fa-circle-xmark{
+
+.head .fa-circle-xmark {
     position: absolute;
     top: 20%;
     right: 39%;
 
 }
-.fa-eye{
+
+.fa-eye {
     position: absolute;
     top: 57.4%;
     right: 39.4%;
-    color: lightgray;   
+    color: lightgray;
 }
-@media only screen and (max-width: 1300px){
-    .main{
+
+@media only screen and (max-width: 1300px) {
+    .main {
         width: 35%;
     }
 }
-@media only screen and (max-width: 1024px){
-    .main{
+
+@media only screen and (max-width: 1024px) {
+    .main {
         width: 50%;
     }
 }
 
-@media only screen and (max-width: 540px){
-    .main{
+@media only screen and (max-width: 540px) {
+    .main {
         width: 80%;
 
     }
+
     .head .fa-circle-xmark {
         position: absolute;
         top: 24%;
         right: 15%;
     }
+
     .fa-eye {
         position: absolute;
         top: 64%;
         right: 15%;
         color: lightgray;
     }
-    
+
 }
